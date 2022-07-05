@@ -53,3 +53,8 @@
 .product-text{
     height: 225px;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
