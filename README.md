@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
+Assignment for interview Round 2. Developed using bootstrap 5.x and web security off because of 403 access denied using proxy.
+
+Find sample screenshots in screenshots directory.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
