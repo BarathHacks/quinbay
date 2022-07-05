@@ -18,9 +18,28 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Disable Web Security
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+For Windows:
+
+    - Open the start menu
+
+    - Type windows+R or open "Run"
+
+    - Execute the following command:
+
+        `chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security`
+
+For Mac:
+
+    - Go to Terminal
+
+    - Execute the following command:
+
+          `open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security`
+
+
+
 
 ## Further help
 
