@@ -1,0 +1,55 @@
+.product-name{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.product-main-price{
+    font-size: 14px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.strike-through-price{
+    color: #06060691;
+    text-decoration: line-through;
+}
+
+.discount-percent {
+	background-color: #ee1f1fc9;
+	font-size: 16px;
+	margin-left: 2px;
+	border-radius: 5px;
+	padding: 2px;
+	color: white;
+}
+
+.review{
+    color: gold;
+}
+
+.product-image{
+    height: 500px;
+    width: 100%;
+    max-height: 500px;
+    background: #fff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-card{
+    border-radius: 16px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.product-cart-btn{
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.product-text{
+    height: 225px;
+}

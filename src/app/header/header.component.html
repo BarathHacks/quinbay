@@ -1,0 +1,17 @@
+<header class="py-3 mb-3 border-bottom">
+    <div class="row">
+
+        <div class="col-6 text-center">
+            <div class="form-group has-search ms-4">
+                <span class="bi bi-search form-control-feedback"></span>
+                <div class="close-icon"><span class="bi bi-x-lg clear" type="reset" [hidden]="hidden" (click)="clear()"></span></div>
+                <input type="text" (keyup.enter)="search()" class="form-control" placeholder="search" [(ngModel)]="value" name="searchTerm" (ngModelChange)="closeIcon($event)">
+            </div>
+        </div>
+        <div class="col-2 text-center"><i class="bi bi-list header-icons"></i></div>
+        <div class="col-2 text-center"><i class="bi bi-bag header-icons"></i><span class='badge badge-warning' id='lblCartCount'>{{cartValue}} </span></div>
+        <div class="col-2 text-center">
+            <i class="bi bi-house header-icons"></i>
+        </div>
+    </div>
+</header>

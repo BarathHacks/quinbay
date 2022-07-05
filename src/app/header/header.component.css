@@ -1,0 +1,54 @@
+.header-icons {
+    font-size: 26px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 100%;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.close-icon {
+    z-index: 3;
+    float: right;
+    padding-right: 3em;
+    cursor: pointer;
+}
+
+.clear {
+    z-index: 2;
+    float: right;
+    padding-right: 3em;
+    cursor: pointer;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    position: absolute;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 50%;
+    height: 20px;
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -10px;
+}

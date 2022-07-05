@@ -1,0 +1,9 @@
+{
+    "/backend": {
+      "target": "https://www.blibli.com",
+      "secure": true,
+      "logLevel":"debug",
+      "pathRewrite" : {"^/backend" : "https://www.blibli.com/backend"},
+      "changeOrigin": true
+    }
+  }
